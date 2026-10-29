@@ -13,7 +13,8 @@ def home():
 def health():
     return {
         "success": True,
-        "status": "healthy"
+        "status": "healthy",
+        "application": "ShopSphere"
     }
 
 if __name__ == "__main__":
